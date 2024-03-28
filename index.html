@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Air Pollution Prediction</title>
+</head>
+<body>
+    <h2>Enter Air Quality Data:</h2>
+    <form action="/predict" method="post">
+        <label for="PM2.5">PM2.5:</label><br>
+        <input type="text" id="PM2.5" name="PM2.5"><br>
+        
+        <label for="PM10">PM10:</label><br>
+        <input type="text" id="PM10" name="PM10"><br>
+        
+        <label for="NO2">NO2:</label><br>
+        <input type="text" id="NO2" name="NO2"><br>
+        
+        <label for="SO2">SO2:</label><br>
+        <input type="text" id="SO2" name="SO2"><br>
+        
+        <label for="O3">O3:</label><br>
+        <input type="text" id="O3" name="O3"><br>
+        
+        <label for="CO">CO:</label><br>
+        <input type="text" id="CO" name="CO"><br>
+        
+        <label for="Temperature">Temperature:</label><br>
+        <input type="text" id="Temperature" name="Temperature"><br>
+        
+        <label for="Humidity">Humidity:</label><br>
+        <input type="text" id="Humidity" name="Humidity"><br>
+        
+        <label for="Wind_Speed">Wind Speed:</label><br>
+        <input type="text" id="Wind_Speed" name="Wind_Speed"><br>
+        
+<label for="region">Region:</label>
+<select id="region" name="Region">
+  <option value="A">A</option>
+  <option value="B">B</option>
+  <option value="C">C</option>
+  <option value="D">D</option>
+  <option value="E">E</option>
+</select>
+        
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
